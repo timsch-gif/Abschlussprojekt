@@ -53,3 +53,12 @@ Klassifizierung nach Jenks mit Farbverlauf.
 * Dichte nur bezogen auf urbane Fläche berechnen.
 * Extremwerte prüfen und falls nötig per Hand löschen.
 * Symbolisierung: unbewohnte Fläche entfernen.
+
+## *Vorteile*
+* Klare Ergebnisse da die Dichte sich nur auf Bebeaute Fläche bezieht und nicht durch unbebaute Flächen Verfälscht wird.
+* Man kann Hotspots gut erkennen
+* Guter Weg zur Analyse der Fläche
+
+## *Nachteile*
+* Es werden viele Daten benötigt wie z.B. LOR, CLC oder Einwohnerzahlen.
+* Vereinfacht das Thema schnell zu leicht.
