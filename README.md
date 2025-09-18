@@ -1,11 +1,11 @@
 #  DTM | Abschlussprojekt - Timo Schwarz | SoSe25 
 ## Impressum
 
-Autor: Timo Schwarz\
-Matr.Nr: 107211\
-Kontakt: tisc3469@bht-berlin.de\
-Kurs: Visualisierung von Geodaten (DTM)\
-Betreuer: Prof. Dr. Florian Hruby
+Autor:  Timo Schwarz\
+Matr.Nr:  107211\
+Kontakt:  tisc3469@bht-berlin.de\
+Kurs:  Visualisierung von Geodaten (DTM)\
+Betreuer:  Prof. Dr. Florian Hruby
 <br><br><br>
 # Inhaltsverzeichnis
 [EP.01 | Dasymetrische Choroplethenkarte](#EP.1)<br>
@@ -22,4 +22,7 @@ Betreuer: Prof. Dr. Florian Hruby
 <a id="EP.1"></a>
 <br>
 # EP.01 | Dasymetrische Choroplethenkarte (Bevölkerungsverteilung in Berliner Bezierken)
+# *Arbeitsaufgabe* 
+Erstellen Sie bitte im A3-Format ein gutaussehende Karte zur Bevölkerungsdichte Berlins, welche die Choroplethenmethode in der Standardvariante einer dsymetrischen Choroplethenkarte gegenüberstellt. Laden Sie das Ergebnis als .pdf auf Moodle hoch.  
+# *Ergebnis*
 ![image](https://github.com/timsch-gif/Abschlussprojekt/blob/Abgaben/berlin_bev_Choroplethenkarte.png)
