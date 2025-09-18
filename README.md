@@ -17,7 +17,6 @@ Betreuer:  Prof. Dr. Florian Hruby
 [EP.07 | Mesh-Daten](#EP.7)<br>
 [EP.08 | Animationen in QGIS](#EP.8)<br>
 [EP.09 | 3D-Gebäudemodelle](#EP.9)<br>
-
 <br><br>
 <a id="EP.1"></a>
 <br>
