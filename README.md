@@ -22,4 +22,4 @@ Betreuer: Prof. Dr. Florian Hruby
 <a id="EP.1"></a>
 <br>
 # EP.01 | Dasymetrische Choroplethenkarte (Bevölkerungsverteilung in Berliner Bezierken)
-![image](https://github.com/timsch-gif/Abschlussprojekt/blob/main/Berlin_Bevoelkerung_Choroplethenkarte_TimoSchwarz.pdf)
+![image](https://github.com/timsch-gif/Abschlussprojekt/blob/Abgaben/berlin_bev_Choroplethenkarte.png)
