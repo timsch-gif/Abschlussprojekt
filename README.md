@@ -31,10 +31,10 @@ Erstellen Sie bitte im A3-Format ein gutaussehende Karte zur Bevölkerungsdichte
 * ***Dasymetrische Choroplethenkarte:*** Bevölkerungszahl zugeschnitten auf tatsächlich bewohntem Gebiet.
 
 ## *Arbeitsschritte*
-***1. Datenbasis***
-* Planungsräume (LOR 2021) als Shapefile von der Senatsverwaltung [downloaden](https://www.berlin.de/sen/sbw/stadtdaten/stadtwissen/sozialraumorientierte-planungsgrundlagen/lebensweltlich-orientierte-raeume/).
-* Einwohnerzahlen [downloaden](https://www.berlin.de/sen/sbw/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2021/tabellen/=).
-* Einwohnerzahlen (CSV, Stand Januar 2023) bereinigen (Kopfzeilen löschen, nur Einwohner-Spalten behalten, 1000er-Trennpunkte entfernen) und als Ganzzahlen importieren.
+***1. Besorgen der Daten***
+* Erst die [Planungsräume Berlins (LOR 2021)](https://www.berlin.de/sen/sbw/stadtdaten/stadtwissen/sozialraumorientierte-planungsgrundlagen/lebensweltlich-orientierte-raeume/) als Shapefile von der Senatsverwaltung herunterladen.
+* Anschließend [Einwohnerzahlen](https://www.berlin.de/sen/sbw/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2021/tabellen/=) downloaden.
+* Datei der Einwohnerzahlen (CSV, Stand Januar 2023) bereinigen (nur Einwohner*innen-Spalten behalten) und als Ganzzahl in Qgis importieren.
   
 ***2. Join***
 * PLR-ID als Ganzzahlspalte im Shapefile anlegen.
