@@ -27,6 +27,6 @@ Betreuer:  Prof. Dr. Florian Hruby
 ***Arbeitsaufgabe:***\
 Erstellen Sie bitte im A3-Format ein gutaussehende Karte zur Bevölkerungsdichte Berlins, welche die Choroplethenmethode in der Standardvariante einer dsymetrischen Choroplethenkarte gegenüberstellt. Laden Sie das Ergebnis als .pdf auf Moodle hoch.\
 
-* ***Einfache Choroplethenkarte:*** Bevölkerung von Berlin durch km2.\
+* ***Einfache Choroplethenkarte:*** Bevölkerung von Berlin durch km2.
   
 * ***Dasymetrische Choroplethenkarte:*** Bevölkerungszahl zugeschnitten auf tatsächlich bewohntem Gebiet.
