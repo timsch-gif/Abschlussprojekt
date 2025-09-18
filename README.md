@@ -1,1 +1,1 @@
-#  DTM | Abschlussprojekt - Timo Schwarz | SOSE25 
+#  DTM | Abschlussprojekt - Timo Schwarz | SoSe25 
