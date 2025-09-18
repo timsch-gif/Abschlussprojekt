@@ -21,8 +21,12 @@ Betreuer:  Prof. Dr. Florian Hruby
 <br><br>
 <a id="EP.1"></a>
 <br>
-# EP.01 | Dasymetrische Choroplethenkarte (Bevölkerungsverteilung in Berliner Bezierken)
-# *Arbeitsaufgabe* 
-Erstellen Sie bitte im A3-Format ein gutaussehende Karte zur Bevölkerungsdichte Berlins, welche die Choroplethenmethode in der Standardvariante einer dsymetrischen Choroplethenkarte gegenüberstellt. Laden Sie das Ergebnis als .pdf auf Moodle hoch.  
-# *Ergebnis*
+# EP.01 | Dasymetrische Choroplethenkarte (Bevölkerungsverteilung in Berliner Bezierken)  
 ![image](https://github.com/timsch-gif/Abschlussprojekt/blob/Abgaben/berlin_bev_Choroplethenkarte.png)
+# *Ergebnis*
+***Arbeitsaufgabe:***\
+Erstellen Sie bitte im A3-Format ein gutaussehende Karte zur Bevölkerungsdichte Berlins, welche die Choroplethenmethode in der Standardvariante einer dsymetrischen Choroplethenkarte gegenüberstellt. Laden Sie das Ergebnis als .pdf auf Moodle hoch.\
+
+* ***Einfache Choroplethenkarte:*** Bevölkerung von Berlin durch km2.\
+  
+* ***Dasymetrische Choroplethenkarte:*** Bevölkerungszahl zugeschnitten auf tatsächlich bewohntem Gebiet.
