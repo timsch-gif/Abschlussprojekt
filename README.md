@@ -36,19 +36,20 @@ Erstellen Sie bitte im A3-Format ein gutaussehende Karte zur Bevölkerungsdichte
 * Anschließend [Einwohnerzahlen](https://www.berlin.de/sen/sbw/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2021/tabellen/=) downloaden.
 * Datei der Einwohnerzahlen (CSV, Stand Januar 2023) bereinigen (nur Einwohner*innen-Spalten behalten) und als Ganzzahl in Qgis importieren.
   
-***2. Join***
-* PLR-ID als Ganzzahlspalte im Shapefile anlegen.
-* CSV und Geometrien per Attribute nach Feldwert verknüpfen.
+***2. Erstelle einen Join***
+* PLR ID als Ganzzahlspalte in Attributtabelle des Shapefiles anlegen.
+* CSV und Shapefile per Attribute verknüpfen.
 
 ***3. Einfache Choroplethenkarte***
-* Bevölkerungsdichte berechnen
-`"EW" / ($area / 10000)` → Einwohner je Hektar
-Symbolisierung: abgestuft, Klassifizierung nach Jenks, Farbverlauf.
+* Bevölkerungsdichte im Feldrechner berechnen
+`"EW" / ($area / 10000)` → Einwohner je Hektar \
+Symbolisierung: abgestuft \
+Klassifizierung nach Jenks mit Farbverlauf.
 
 ***4. Dasymetrische Choroplethenkarte***
-* Corine Land Cover Daten (CLC) [downloaden](https://land.copernicus.eu/en/technical-library) und auf urbane Codes 111 und 112 filtern.
-* Mit _Auflösen_ zusammenführen → Urban Fabric.
-* _Verschneidung_ mit LOR-Einwohnern.
+* [Corine Land Cover Daten (CLC)](https://land.copernicus.eu/en/technical-library) herunterladen und auf urbane Codes 111 und 112 filtern.
+* Mit den Werkzeug *Auflöse* zusammenführen → Urban Fabric.
+* Dann durch *Verschneidung* mit LOR-Einwohnern.
 * Dichte nur bezogen auf urbane Fläche berechnen.
-* Extremwerte prüfen und ggf. manuell löschen.
-* Symbolisierung analog zur einfachen Karte; Zusatzfeld unbewohnte Fläche.
+* Extremwerte prüfen und falls nötig per Hand löschen.
+* Symbolisierung: unbewohnte Fläche entfernen.
