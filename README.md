@@ -83,3 +83,13 @@ Klassifizierung nach Jenks mit Farbverlauf.
 ***4. Aggregation / räumlichen Join erstellen***
 * *Attribute nach Position verknüpfen (Zusammenfassung)*:
 * *Ziel* = Hexagon-Grid, Join = Kirschbaum-Punkte, dann Anzahl der Bäume pro Zelle berechnen.
+
+***5. Symbolisierung***
+* Am besten eignet sich eine Abgestufte Symboliesierung nach Baumanzahl.
+* Hier unterteilt in 7 Klassen nach Jenks.
+* Ich habe mich für einen Farverlauf von Rosa zu Lila entschieden.
+
+***6. Drucklayout erstellen***
+* Wie gewohnt mit Karte, Kartentitel, Legende, Maßstab, Quellen, Datum und Namen.
+
+## *Vorteile*
