@@ -68,3 +68,18 @@ Klassifizierung nach Jenks mit Farbverlauf.
 ![image](https://github.com/timsch-gif/Abschlussprojekt/blob/Abgaben/Abgaben%20DTM%20SoSe25/Kirschb%C3%A4ume_Berlin_hex_500_layout_hochkant.png)
 
 ## *Arbeitsschritte*
+***1. Besorgen der Daten***
+* Bezirksgrenzen und Baumbestand sind frei als WFS-Layer im [Geoportal Berlin](https://fbinter.stadt-berlin.de/fb/index.jsp) verfügbar.
+
+***2. Nach Baumarten im WFS filtern***
+* In den beiden Baum-Layern Kirschbäume per Ausdruck auswählen.
+`art_dtsch ILIKE '%kirsche%'`
+* Anschließend nur die ausgewählten Baumarten als Punktlayer ins Projekt importieren.
+
+***3. Hexergongitter erstellen***
+* Dies geht über: *Vektor* → *Recherchewerkzeuge* → *Gitter erzeugen*: Typ = Hexagon (Polygone), Seitenlänge 500 m (Einheit hier Meter).
+* Gitter über die Fläche von Berlin erstellen und mit Stadtgrenze zuschneiden.
+
+***4. Aggregation / räumlichen Join erstellen***
+* *Attribute nach Position verknüpfen (Zusammenfassung)*:
+* *Ziel* = Hexagon-Grid, Join = Kirschbaum-Punkte, dann Anzahl der Bäume pro Zelle berechnen.
