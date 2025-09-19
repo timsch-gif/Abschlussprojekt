@@ -179,3 +179,15 @@ Privatroom, Sharedroom, Hotelroom und Apartment.
 *  *Value-by-Alpha Mapping*: Transparenz wird durch ereichte % bestimmt
 `set_color_part('white', 'alpha', scale_linear("g_proz_gueltig", min("g_proz_gueltig"), max("g_proz_gueltig"), 200, 0))`
 * Ergebnis: Farbton = Gewinner Partei, Farbintensität = Wie klar war der Sieg
+
+## *Vorteile*
+* 2 Variablen gleichzeitig.
+* Beide Karten auf einem Layout zeigen Gut den Vergleich zwischen 2021 und 2025.
+* Durch die Verschiedene Intensivität der Farbe lässt sich gut sehen wo Partein deutlich oder auch knapp gewonnen haben.
+
+## *Nachteile*
+* Datenaufbereitung aufwendig.
+* Kleine Wahlkreise sehr schlecht zu erkennen.
+* kleiner Fehler kann zu großen verfältschungen führen.
+* Wenn die ergebnisse sehr knapp sind ist es nur schwer erkennbar wer dort gewonnen hat.
+ 
