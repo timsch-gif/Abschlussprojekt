@@ -148,3 +148,10 @@ Privatroom, Sharedroom, Hotelroom und Apartment.
 * Bei sehr feiner Skalierung können Karten überladen sein.
 * Keine exakten Werte pro Gebiet ablesbar, eher nur visuelle Tendenzen.
 
+<a id="EP.4"></a>
+<br>
+# EP.04 | Value-by-Alpha | Bundestagswahl 2021 im vergleich mit 2025
+## *Ergebnis*
+![image](https://github.com/timsch-gif/Abschlussprojekt/blob/Abgaben/Abgaben%20DTM%20SoSe25/Vergleich_Wahlen_25_21.png)
+
+* Durch Value-by-Alpha kann die Höhe eines Wertes durch Farbintensität ausgedrückt werden. Im Vorliegenden Fall die %-Stimmenanteil der Siegerpartei in der jeweiligen Bundestagswahl.
