@@ -66,4 +66,4 @@ Klassifizierung nach Jenks mit Farbverlauf.
 <a id="EP.2"></a>
 <br>
 # EP.02 | Kleines Einmaleins der thematischen Kartographie | Gitterchoroplethenkarte
-![image]([https://github.com/timsch-gif/Abschlussprojekt/blob/Abgaben/berlin_bev_Choroplethenkarte.png](https://github.com/timsch-gif/Abschlussprojekt/blob/Abgaben/Abgaben%20DTM%20SoSe25/Kirschb%C3%A4ume_Berlin_hex_500_layout_hochkant.png))
+![image](https://github.com/timsch-gif/Abschlussprojekt/blob/Abgaben/Abgaben%20DTM%20SoSe25/Kirschb%C3%A4ume_Berlin_hex_500_layout_hochkant.png)
