@@ -72,7 +72,7 @@ Klassifizierung nach Jenks mit Farbverlauf.
 * Bezirksgrenzen und Baumbestand sind frei als WFS-Layer im [Geoportal Berlin](https://fbinter.stadt-berlin.de/fb/index.jsp) verfügbar.
 
 ***2. Nach Baumarten im WFS filtern***
-* In den beiden Baum-Layern Kirschbäume per Ausdruck auswählen.
+* In den beiden Kirschbäume Layern durch den Ausdruck auswählen:
 `art_dtsch ILIKE '%kirsche%'`
 * Anschließend nur die ausgewählten Baumarten als Punktlayer ins Projekt importieren.
 
