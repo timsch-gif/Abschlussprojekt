@@ -155,3 +155,14 @@ Privatroom, Sharedroom, Hotelroom und Apartment.
 ![image](https://github.com/timsch-gif/Abschlussprojekt/blob/Abgaben/Abgaben%20DTM%20SoSe25/Vergleich_Wahlen_25_21.png)
 
 * Durch Value-by-Alpha kann die Höhe eines Wertes durch Farbintensität ausgedrückt werden. Im Vorliegenden Fall die %-Stimmenanteil der Siegerpartei in der jeweiligen Bundestagswahl.
+
+## *Arbeitsschritte*
+***1. Besorgen der Daten***
+* Alles zu benötigende es auf der Seite der [Bundeswahlleiterin](https://www.bundeswahlleiterin.de/bundestagswahlen/2025/wahlkreiseinteilung/downloads.html). zu downloaden.
+
+***2. Daten aufbereiten***
+* In Excel alle irrelevanten Spalten löschen wir benötigen nur die nötigen Zweitstimmen der SPD, CDU (Bzw. in Bayern CSU), AFD, Grünen und Linken.
+* Beim Export als CSV die Wahlkreisnummer (WKR_NR) als Int-Wert definieren.
+
+***3. Join erstellen***
+* Geometrie und CSV Datei in Qgis laden und über das Feld *WKR_NR* miteinander verbinden.
