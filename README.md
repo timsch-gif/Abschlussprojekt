@@ -111,5 +111,40 @@ Klassifizierung nach Jenks mit Farbverlauf.
 ## *Ergebnis*
 ![image](https://github.com/timsch-gif/Abschlussprojekt/blob/Abgaben/AirBnB_TimoSchwarz.png)
 
+* Die PunktrasterKarte ermöglicht eine angepasste Rasteransicht mit verschieden vielen Variablen. Hier werden Preis und Anzahl an unterkünften in einem Raster Dargestellt.
+
 ## *Arbeitsschritte*
 ***1. Besorgen der Daten***
+* Auf dem [InsideAirBnB-Portal](https://insideairbnb.com/) siend diese Daten Verfügbar.
+* Dort erhält man eine listings.csv Quelldatei die wir für das Projekt aufarbeiten müssen. (NULL-Werte entfernen)
+* csv-Datei in Qgis als Punktgeometrie importieren.
+
+***2. Attriebute Aufbereitund und Join erstellen***
+* Preis und Objekt-ID zusammenfügen.
+* Anzahl und Durchschnitt der Unterkünfte berechnen.
+
+***3. Raster erstellen***
+* 2x2 km Grid über Berlin erstellen und Generieren lassen.
+* Dann mit einem *Spatial Join* die Attriebute dem Raster zuteilen.
+
+***4. Kategorisieren***
+* Wir Kategorisieren in die 4 verschiedenen Unterkunfts Typen die zur Verfügung sind:\
+Privatroom, Sharedroom, Hotelroom und Apartment.
+
+***5. Symbolisierung***
+* Für jede Objektgröße, Zentrierte Füllung.
+* Farbe = Anzahl der Objekte
+* Größe = Preis
+
+## *Vorteile*
+* Anschauliche Darstellung räumlicher Verteilung durch einzelne Punkte.
+* Dichte und Muster (Cluster, Leerstellen) sofort erkennbar.
+* Einfach verständlich, auch ohne Fachwissen.
+* Flexible Punktskalierung möglich (ein Punkt = feste Anzahl an Objekten).
+
+## *Nachteile*
+* Punkte können sich überlagern und unübersichtlich wirken.
+* Bei grober Punktskalierung gehen Details verloren.
+* Bei sehr feiner Skalierung können Karten überladen sein.
+* Keine exakten Werte pro Gebiet ablesbar, eher nur visuelle Tendenzen.
+
