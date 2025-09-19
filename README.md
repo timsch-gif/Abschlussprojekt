@@ -104,3 +104,12 @@ Klassifizierung nach Jenks mit Farbverlauf.
 * Aussagekraft kann leiden, wenn Raster zu grob oder zu fein gewählt ist, so kann es zu Verfälschungen kommen.
 * Weniger intuitiv für Betrachter (Leute kennen Landkreise/Städte besser als Rasterfelder).
 * Erhöhter Rechen- und Datenaufwand bei feinen Gittern.
+
+<a id="EP.3"></a>
+<br>
+# EP.03 | Punktrasterkarten am Beispiel AirBnB
+## *Ergebnis*
+![image](https://github.com/timsch-gif/Abschlussprojekt/blob/Abgaben/AirBnB_TimoSchwarz.png)
+
+## *Arbeitsschritte*
+***1. Besorgen der Daten***
