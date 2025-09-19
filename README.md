@@ -93,3 +93,14 @@ Klassifizierung nach Jenks mit Farbverlauf.
 * Wie gewohnt mit Karte, Kartentitel, Legende, Maßstab, Quellen, Datum und Namen.
 
 ## *Vorteile*
+* Vermeiden Flächenverzerrung durch unterschiedlich große Verwaltungsgebiete.
+* Alle Rasterzellen gleich groß → bessere Vergleichbarkeit.
+* Räumliche Muster und Trends klarer erkennbar.
+* Datenschutzfreundlicher (keine Rückschlüsse auf Einzelpersonen).
+* Flexibel in Auflösung und Form (Quadrat, Hexagon).
+
+## *Nachteile*
+* Künstliche Rasterzellen ignorieren natürliche/administrative Grenzen.
+* Aussagekraft kann leiden, wenn Raster zu grob oder zu fein gewählt ist, so kann es zu Verfälschungen kommen.
+* Weniger intuitiv für Betrachter (Leute kennen Landkreise/Städte besser als Rasterfelder).
+* Erhöhter Rechen- und Datenaufwand bei feinen Gittern.
