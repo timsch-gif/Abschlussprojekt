@@ -179,4 +179,3 @@ Privatroom, Sharedroom, Hotelroom und Apartment.
 *  *Value-by-Alpha Mapping*: Transparenz wird durch ereichte % bestimmt
 `set_color_part('white', 'alpha', scale_linear("g_proz_gueltig", min("g_proz_gueltig"), max("g_proz_gueltig"), 200, 0))`
 * Ergebnis: Farbton = Gewinner Partei, Farbintensität = Wie klar war der Sieg
-* 
