@@ -166,3 +166,17 @@ Privatroom, Sharedroom, Hotelroom und Apartment.
 
 ***3. Join erstellen***
 * Geometrie und CSV Datei in Qgis laden und über das Feld *WKR_NR* miteinander verbinden.
+
+***4. Neue Felder anlegen und berechnen***
+*  *g_value* → Stimmenzahl der gewinnenden Partei
+`array_max( array( "SPD" , "CDU" , "Gruenen" , "AFD" , "Linke"))`
+* *g_name* = Gewinner Name
+`with_variable( 'maxVal', array_max( array( "SPD" , "CDU" , "Gruenen" , "AFD" , "Linke")), CASE WHEN "SPD" = @maxVal THEN 'SPD' WHEN "CDU" = @maxVal THEN 'CDU' WHEN "Gruenen" = @maxVal THEN 'Gruenen' WHEN "AFD" = @maxVal THEN 'AFD' WHEN "Linke" = @maxVal THEN 'Linke' END)`
+* *g_proz_gueltig* = gültige Stimmenanteil in Prozent.
+
+***5. Symboliesieren***
+* Regelbasierte Darstellungsform bei der Jede Partei ihre typische Parteifarbe erhält.
+*  *Value-by-Alpha Mapping*: Transparenz wird durch ereichte % bestimmt
+`set_color_part('white', 'alpha', scale_linear("g_proz_gueltig", min("g_proz_gueltig"), max("g_proz_gueltig"), 200, 0))`
+* Ergebnis: Farbton = Gewinner Partei, Farbintensität = Wie klar war der Sieg
+* 
