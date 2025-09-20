@@ -248,3 +248,9 @@ Privatroom, Sharedroom, Hotelroom und Apartment.
 # EP.07 | Mesh-Daten
 ## *Ergebnis*
 ![image]()
+
+## *Arbeitsschritte*
+
+## *Vorteile*
+
+## *Nachteile*
