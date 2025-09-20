@@ -206,4 +206,45 @@ Privatroom, Sharedroom, Hotelroom und Apartment.
 <br>
 # EP.06 | Flowmaps | Syrien
 ## *Ergebnis*
-![image](https://github.com/timsch-gif/Abschlussprojekt/blob/Abgaben/Abgaben%20DTM%20SoSe25/Syrien_REF_2014_2025.png)
+![image](https://github.com/timsch-gif/Abschlussprojekt/blob/Abgaben/Abgaben%20DTM%20SoSe25/Syrien_REF_2014_2025_2.png)
+* Hier zu sehen ist eine Flowmap die die Flüchtströme von Syrern im Zeitraum von 2014 bis 2025 darstellt. Die Fraben und Strichbreiten der linien und Punkte zeigt dabei die Anzahl der Flüchtlinge.
+
+## *Arbeitsschritte*
+***1. Besorgen der Daten***
+* Die Flüchtlingsdaten sind auf der Seite der [UNHCR](https://www.unhcr.org/refugee-statistics/download) zu downloaden.
+* Dazu braucht man noch ein Shapefile der Erde.
+
+***2. Daten aufbereiten***
+*  Pivot Tabelle (Spalten = Jahr, Zeilen = Aufnehmendes Land ISO, Werte = Summe Flüchtlinge) erstellen und anschließend als CSV exportieren und dann ohne Geometrie in Qgis importieren.
+
+***3. Zentroide erstellen***
+* Für alle Länder der Liste einen Zentroied (also den Mittelpunkt) berechnen.
+* Für einige Länder die z.B aus Inseln bestehen oder Übersee gebiete besitzen muss der Zentroid ggf. per Hand Korrigiert werden.
+
+***4. Projektion fürs Projekt anpassen***
+* Orthographische Projektion (+proj=ortho +lat_0=50.3 +lon_0=30.3 +x_0=0 +y_0=0 +a=6371000 +b=6371000 +units=m +no_defs) erstellen, um einen Globus abzubilden.
+
+***5. Join erstellen und Linien generieren***
+* Nun einen Join zwischen der CSV-Datei und der Zentroieden Geometrie erstellen.
+* Im Feldrechner Ursprungkoordinaten, in meinem Fall sind es die von Syrien, und Zielkoordinaten ($x, $y) anlegen und *XY → Linie* Werkzeug ausführen.
+
+***6. Symboliesierung***
+* Linienbreite wird nach Anzahl der Flüchtlingen gestaffelt.
+* Ursprungspunkt (Syrien) durch gr0ße Markierung kennzeichnen.
+* Ozeane durch shapeburst füllen um einen Globuseffekt zu erreichen.
+
+## *Vorteile*
+* Räumlicher bezug wird sehr schön deutlich da das Ursprungsland im Mittelpunkt des Globus ist.
+* Optisch ansprechend da es eine recht besondere Darstellungsform ist.
+* Werte gut grob miteinander zu vergleichen surch die Unterschiedlichen Strichstärken.
+
+## *Nachteile*
+* Viele Überlagerungen da im Zentrum so viele Punkte starten und auch sehr viele in direkte Nachbarländer flüchten.
+* Durch die Verzerrung der Projektion können Länder die eher am rand der Darstellung liegen nur schlcht gezeigt werden.
+* Zentroide müssen leider per Hand korriegiert werden, dadurch sind sie ungenau.
+
+<a id="EP.7"></a>
+<br>
+# EP.07 | Mesh-Daten
+## *Ergebnis*
+![image]()
