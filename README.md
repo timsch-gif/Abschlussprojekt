@@ -191,3 +191,19 @@ Privatroom, Sharedroom, Hotelroom und Apartment.
 * kleiner Fehler kann zu großen verfältschungen führen.
 * Wenn die ergebnisse sehr knapp sind ist es nur schwer erkennbar wer dort gewonnen hat.
  
+<a id="EP.5"></a>
+<br>
+# EP.05 | Tilemaps
+## *Ergebnis*
+
+## *Arbeitsschritte*
+
+## *Vorteile*
+
+## *Nachteile*
+
+<a id="EP.6"></a>
+<br>
+# EP.06 | Flowmaps | Syrien
+## *Ergebnis*
+![image](https://github.com/timsch-gif/Abschlussprojekt/blob/Abgaben/Abgaben%20DTM%20SoSe25/Syrien_REF_2014_2025.png)
