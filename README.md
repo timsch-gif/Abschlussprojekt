@@ -314,3 +314,14 @@ Privatroom, Sharedroom, Hotelroom und Apartment.
 
 ## *Nachteile*
 * Viele Überlappungen der Spuren können verwirren.
+
+<a id="EP.9"></a>
+<br>
+# EP.09 | 3D-Gebäudemodelle
+## *Ergebnis*
+
+## *Arbeitsschritte*
+
+## *Vorteile*
+
+## *Nachteile*
