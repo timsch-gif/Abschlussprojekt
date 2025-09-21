@@ -277,5 +277,17 @@ Privatroom, Sharedroom, Hotelroom und Apartment.
 * Genauer gezeigt ist das erstellen eines Gifs [hier](https://www.youtube.com/watch?v=tYfarke-M_o).
 
 ## *Vorteile*
+* Zeitliche Visualisierung gut Dargestellt.
+* Leicht verständlich.
+* Viele Layout optionen.
 
 ## *Nachteile*
+* Sehr undetailliert.
+* Gif Format ist eher schnell und ohne Pause Option.
+* Die Zeitlichen Frames sind sehr viele Bilder die rechenleistung Vorraussetzt.
+
+<a id="EP.8"></a>
+<br>
+# EP.08 | Animation in Qgis
+## *Ergebnis*
+![image](https://github.com/timsch-gif/Abschlussprojekt/blob/Abgaben/Abgaben%20DTM%20SoSe25/meteors_layout_TimoSchwarz.png)
