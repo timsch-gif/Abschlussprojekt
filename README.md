@@ -250,6 +250,28 @@ Privatroom, Sharedroom, Hotelroom und Apartment.
 ![image]()
 
 ## *Arbeitsschritte*
+***1. Besorgen der Daten***
+* Irgendeine Geometrie von Deutschlands Außengrenzen ( welche inneren Grenzen vorkommen ist egal da sie durch das Tool dissolve eh weggeschnitten werden können).
+* [GRIB](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview) Wind daten beschaffen.
+
+***2. Daten aufbereiten***
+* Wenn noch nicht gemacht dissolve Werkzeug nutzen um nur Deutschlands Außengrnzen darzustellen.
+* GRIB-Layer in Qgis importieren und die Symboliesierung auf Vektor stellen.
+
+***3. Zeitsteuerung einrichten***
+* Layereigenschaft "Zeitlich" aktivieren.
+* Zeitstempel erstellen indem man einen neuen Punkt im Layer anlegt. Das Symbol auf transparent setzen. Und eine Beschriftung hinzufügt mit dem Text: format_date(@map_start_time, 'd. MMMM yyyy') || '\n'  || format_date(@map_start_time, 'HH:mm')
+* Zeitlich: „Nur Layer neuzeichnen“
+
+***4. Layout***
+* Unter der Option Dekoration findet man Optionen Wie Maßstab oder Legende. hier gestalltet man dan alles was aufs Layout soll.
+
+***5. Export***
+* Zuerst mit der Uhr die Animation erstellen und dann die Frames als JPG exportieren.
+* Anschließend kann man in Verschiedenen anderen Programmen daraus ein Gif erstellen.
+
+***6. Gif erstellen in GIMP***
+
 
 ## *Vorteile*
 
