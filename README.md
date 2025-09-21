@@ -4,7 +4,7 @@
 Autor:  Timo Schwarz\
 Matr.Nr:  107211\
 Kontakt:  tisc3469@bht-berlin.de\
-Kurs:  Visualisierung von Geodaten (DTM)\
+Kurs:  Visualisierung von Geodaten (DTM) SoSe25\
 Betreuer:  Prof. Dr. Florian Hruby
 <br><br><br>
 # Inhaltsverzeichnis
