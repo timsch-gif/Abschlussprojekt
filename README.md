@@ -292,3 +292,25 @@ Privatroom, Sharedroom, Hotelroom und Apartment.
 # EP.08 | Animation in Qgis
 ## *Ergebnis*
 ![image](https://github.com/timsch-gif/Abschlussprojekt/blob/Abgaben/Abgaben%20DTM%20SoSe25/meteors_layout_TimoSchwarz.png)
+
+## *Arbeitsschritte*
+***1. Besorgen der Daten***
+* Southern Taurids meteor shower vom 03 / 01 / 2025 [herunterladen](https://tammojan.github.io/meteormap/).
+
+***2. Daten aufbereiten***
+* Projekt Projektion auf EPSG:4326 setzen und Landesgrenzen Geometrie hinzufügen.
+
+***3. Geometrie erzeugen***
+* Mit dem feature " Geometrie nach Ausdruck" kann man eine Linie aus Start und Endkoordinaten der Meteorden erstellen.
+* Dazu kann man noch eine (am besten dunkle) Basemap hinzufügen.
+
+***4. Symboliesierung***
+* Hierfür nutzen wir einen interpolierten Farbverlauf.
+* Nun Layout erstellen und als PNG in gewünsten maßen exportieren.
+
+## *Vorteile*
+* Übersichtlich und leicht zu deuten.
+* Geringer Arbeitsaufwand.
+
+## *Nachteile*
+* Viele Überlappungen der Spuren können verwirren.
