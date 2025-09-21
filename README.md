@@ -271,7 +271,10 @@ Privatroom, Sharedroom, Hotelroom und Apartment.
 * Anschließend kann man in Verschiedenen anderen Programmen daraus ein Gif erstellen.
 
 ***6. Gif erstellen in GIMP***
-
+* Alle Bilder als Ebene Einfügen, dies dauert bei der Menge der Bilder etwas bis es geladen ist.
+* Dann wieder Exportieren und die Datei als Gif speichern.
+* Im aufkommenden Fenster müssen wir dann noch "Als Animation" aktivieren und dann haben wir das Gif.
+* Genauer gezeigt ist das erstellen eines Gifs [hier](https://www.youtube.com/watch?v=tYfarke-M_o).
 
 ## *Vorteile*
 
