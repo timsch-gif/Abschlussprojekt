@@ -247,7 +247,8 @@ Privatroom, Sharedroom, Hotelroom und Apartment.
 <br>
 # EP.07 | Mesh-Daten
 ## *Ergebnis*
-![image]()
+![image](https://github.com/timsch-gif/Abschlussprojekt/blob/Abgaben/Abgaben%20DTM%20SoSe25/mesh_daten0000.png)
+* Die Gif Datei war leider zu groß jedoch [hier](https://cloud.bht-berlin.de/index.php/s/pCc3CnJ2FDT2p8X) verlinkt.
 
 ## *Arbeitsschritte*
 ***1. Besorgen der Daten***
