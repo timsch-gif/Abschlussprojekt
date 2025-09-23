@@ -319,6 +319,15 @@ Privatroom, Sharedroom, Hotelroom und Apartment.
 <br>
 # EP.09 | 3D-Gebäudemodelle
 ## *Ergebnis*
+![image](https://github.com/timsch-gif/Abschlussprojekt/blob/Abgaben/Abgaben%20DTM%20SoSe25/Layout_Dresden_V2.png)
+***1. Besorgen der Daten***
+* Die benötigten 3D Geodaten sind [hier](https://www.geodaten.sachsen.de/downloadbereich-digitale-3d-stadtmodelle-4875.html) frei zu downloaden und anschließend in Qgis zu Importieren.
+
+***2. Symboliesierung***
+* In den Layereigenschaften den Stil 2.5D wählen und die Gebäudehöhe als Attribut auswählen.
+
+***3. Farbdarstellung***
+* 
 
 ## *Arbeitsschritte*
 
