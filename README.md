@@ -336,5 +336,11 @@ Privatroom, Sharedroom, Hotelroom und Apartment.
 ***4. Layout erstellen und exportieren***
 
 ## *Vorteile*
+* Für jeden machbar (Open Source).
+* Gibt gut einen neuen Blickwinkel auf die Daten.
+* relativ Simpel durch die 2.5D einstellung in Qgis.
 
 ## *Nachteile*
+* Bei vielen Daten sehr Rechenaufwendig.
+* Darstellungsweise der Farben ist umständlich.
+* Man kann nur bestimmte Geodaten so vernünftig Darstellen.
